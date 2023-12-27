@@ -1,0 +1,66 @@
+/* UNIVERSAL SELECTOR */
+*{
+    background: pink;
+}
+/* id selector */
+#box{
+    border: 4px dotted black;
+    width: fit-content;
+    padding: 6px;
+    color: red;
+    margin-left: 50%;
+}
+/* pseudo class selector */
+.box:hover{
+    background-color: greenyellow;
+}
+/* Element selector */
+ol{
+    text-align: center;
+    margin-top: 50px;
+}
+/* Element selector */
+li{
+    margin-top: 2%;
+}
+/* pseudo class selector */
+li:nth-child(2n-1) {
+    background: yellow;
+}
+/* pseudo class selector */
+li:nth-child(2n) {
+    background:rgb(155, 237, 55);
+}
+/* class selector (multiple use) */
+.lefta,.leftb{
+    margin-left: 40px;
+    width: 200px;
+    height: 150px;
+}
+.righta,.rightb{
+
+    width: 200px;
+    height: 150px;
+}
+.flex2,.flex1{
+    display: flex;
+}
+.flex2{
+    margin-left: 30px;
+}
+.flex1{
+    margin-left: 70%;
+}
+/* pseudo element selector */
+p::first-line{
+    color: rgb(16, 23, 238);
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: x-large;
+}
+h2 > span{
+    font-size: xx-large;
+    color: darkorchid;
+    margin-left: 45%;
+}
